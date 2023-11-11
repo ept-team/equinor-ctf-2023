@@ -9,3 +9,23 @@ He is lazy and well known to clone git, deploy on the spot and leave everything.
 Site: {{link}}
 ```
 
+## Writeup
+
+The description talks about git repo, so I opened the url with curl
+
+``` bash
+$ curl https://insufficient.io.ept.gg/.git/HEAD 
+ref: refs/heads/main
+```
+
+Removing the HEAD shows that directory listing is on as well. So I can just download the whole folder:
+
+```
+wget -r curl https://insufficient.io.ept.gg/.git/
+```
+
+Then I can enter the folder wget creates and do `git status`
+
+![git status](image.png)
+
+Using `git checkout -- .` I restore all files but find nothing. But using `git branch -a` shows a `secrets` branch so I just quickly check it out with `git checkout secrets` and there is `snotes.md` containing the flag.
