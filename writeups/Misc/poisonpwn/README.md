@@ -47,6 +47,6 @@ Which will print the secret. But github will sensor that and replace it with `**
 
 And looking in the actions log I get this:
 
-![ss-inject](ss-inject.png)
+![flag](ss-flag.png)
 
 Now just add the character I removed `}` and I get the flag! 
