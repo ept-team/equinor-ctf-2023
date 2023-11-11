@@ -20,11 +20,11 @@ There might be a prize for the special one who is able to navigate this piece of
 
 ## Writeup
 
-Writeup
-Introduction
+
+### Introduction
 The reports application generates a report by executing the code found in the "Reports" table in the database. This opens up for an opportunity to execute a RCE exploit.
 
-Exploitation
+### Exploitation
 The /api/Data endpoint allows users with the Admin role originating from a set of defined hostnames to add new reports to the database.
 
 To gain access to this endpoint, two headers must be set:
