@@ -29,6 +29,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [toffe](/writeups/Misc/insufficient/toffe)  
 ### Crypto
  - **bloxor**
+	 - [coldboots](/writeups/Crypto/bloxor/coldboots)  
 ### Web
  - **shop-3**
 	 - [Sikom](/writeups/Web/shop-3/Sikom)  
@@ -52,6 +53,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 ### Reversing
  - **EPT1911**
 	 - [FoxMaccloud](/writeups/Reversing/EPT1911/FoxMaccloud)  
+	 - [7h3_D4rk_4rmy](/writeups/Reversing/EPT1911/7h3_D4rk_4rmy)  
  - **Bouncyball**
  - **One True Flag**
  - **Broken Mario**
