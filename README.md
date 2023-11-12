@@ -42,6 +42,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 ### Web
  - **Flag API**
  - **shop-3**
+    - [Sikom - Norske Nøkkelsnikere](./writeups/Web/shop-3/Sikom/README.md)
  - **Partly**
  - **Reports**
  - **The Purple Pages**

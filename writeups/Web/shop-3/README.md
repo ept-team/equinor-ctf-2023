@@ -11,3 +11,6 @@ Welcome to the new and improved EPT Merch Shop! Apparently last years version ha
 
 ## Provided challenge files
 * [shop.tar.gz2](shop.tar.gz2)
+
+## Writeups
+[Sikom - Norske Nøkkelsnikere](./writeups/Web/shop-3/Sikom/README.md)
