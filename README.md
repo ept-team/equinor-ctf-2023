@@ -1,6 +1,7 @@
 
-# equinor-ctf-2022
-> Educational guides, writeups and challenges resources for the 2022 Equinor CTF
+
+# equinor-ctf-2023
+Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 
 
 ## Table of content
@@ -16,43 +17,43 @@
 
 ## Writeups
 
-### Forensics
- - **Secured Exchange**
- - **DR Mal**
- - **Misery**
- - **Ratboy's Masterplan**
-### Reversing
- - **EPT1911**
- - **One True Flag**
- - **Broken Mario**
- - **Bouncyball**
-### Crypto
- - **bloxor**
-### Misc
- - **poisonpwn**
- - **casino**
-	 - [NorskeNøkkelsnikere](/writeups/Misc/casino/NorskeNøkkelsnikere)  
- - **Dis is it!**
- - **Trust but verify**
- - **insufficient**
- - **Uncrackable zip revenge**
 ### Onsite
  - **NOAHS ARK**
  - **EPT Cyber Range**
  - **Run, Forrest! Run!**
 ### Pwn
+ - **Travel tracker**
+    - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
  - **Easypwn**
  - **EPT EDR**
  - **Veal and Car's first baby (heap)**
-	 - [WackAttack](/writeups/Pwn/Veal%20and%20Car's%20first%20baby%20(heap)/WackAttack)  
+    - [WackAttack](/writeups/Pwn/Veal%20and%20Car's%20first%20baby%20(heap)/WackAttack)
  - **procmon**
- - **Travel tracker**
-	 - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
+### Forensics
+ - **DR Mal**
+ - **Misery**
+ - **Secured Exchange**
+ - **Ratboy's Masterplan**
+### Misc
+ - **insufficient**
+ - **Trust but verify**
+ - **Dis is it!**
+ - **Uncrackable zip revenge**
+ - **casino**
+ - **poisonpwn**
 ### Web
- - **Partly**
  - **Flag API**
-	 - [Sikom](/writeups/Web/Flag%20API/Sikom)  
+    - [Sikom - Norske Nøkkelsnikere](/writeups/Web/Flag%20API/Sikom/README.md)
  - **shop-3**
-	 - [Sikom](/writeups/Web/shop-3/Sikom)  
+    - [Sikom - Norske Nøkkelsnikere](./writeups/Web/shop-3/Sikom/README.md)
+ - **Partly**
  - **Reports**
  - **The Purple Pages**
+### Reversing
+ - **Bouncyball**
+ - **Broken Mario**
+ - **EPT1911**
+ - **One True Flag**
+### Crypto
+ - **bloxor**
+
