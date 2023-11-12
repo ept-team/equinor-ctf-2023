@@ -23,6 +23,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Run, Forrest! Run!**
 ### Pwn
  - **Travel tracker**
+   - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
  - **Easypwn**
  - **EPT EDR**
  - **Veal and Car's first baby (heap)**
@@ -41,7 +42,9 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **poisonpwn**
 ### Web
  - **Flag API**
+    - [Sikom - Norske Nøkkelsnikere](/writeups/Web/Flag%20API/Sikom/README.md)
  - **shop-3**
+    - [Sikom - Norske Nøkkelsnikere](./writeups/Web/shop-3/Sikom/README.md)
  - **Partly**
  - **Reports**
     - [OxLE - Norske Nøkkelstudenter](./writeups/Web/Reports/norske-nokkelstudenter/README.md)
