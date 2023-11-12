@@ -44,7 +44,7 @@ u: Increment selected index in the array by one
 
 In the start of the second section, the first character in the flag body is selected, the first index in the array is selected and a second array of length 2 is created. The purpose of the second array is to save locations in the flag that the program can "jump" to.
 
-```
+```c
   memset(Reg, 0, sizeof(Reg));
   RegPtr = 0;
   opcodeHelp = 4;
