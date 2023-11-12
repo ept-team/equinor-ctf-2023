@@ -1,5 +1,5 @@
-# EPT CTF 2023 - Writeups
-This is a repo collecting writeups from players for the challenges to the EPT CTF 2023.
+# EPT CTF 2022 - Writeups
+This is a repo collecting writeups from players for the challenges to the EPT CTF 2022.
 
 We want **YOU!** to submit your writeups as pull requests to this repo to gather everything in one place, instead of a messy #writeups channel on Discord.
 
