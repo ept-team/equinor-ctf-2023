@@ -1,5 +1,5 @@
 # One True Flag 
-## RumbleImTheJungle
+## RumbleInTheJungle
 
 This challenge is an x64 ELF file that asks the user for a flag and checks the flag in three parts.
 
