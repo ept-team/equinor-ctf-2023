@@ -35,6 +35,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Ratboy's Masterplan**
 ### Misc
  - **insufficient**
+   - [toffe](./writeups/Misc/insufficient/toffe)  
  - **Trust but verify**
  - **Dis is it!**
  - **Uncrackable zip revenge**
