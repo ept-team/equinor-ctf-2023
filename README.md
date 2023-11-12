@@ -37,6 +37,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 ### Misc
  - **insufficient**
  - **Trust but verify**
+   - [0xLE - Norske Nøkkelstudenter](writeups/Misc/Trust%20but%20verify/norske-nokkelstudenter)
  - **Dis is it!**
  - **Uncrackable zip revenge**
  - **casino**
