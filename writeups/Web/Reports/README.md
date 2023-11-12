@@ -19,4 +19,4 @@ There might be a prize for the special one who is able to navigate this piece of
 * [WebSite.tar.gz](WebSite.tar.gz)
 
 ## Writeups
-[OxLE - Norske Nøkkelstudenter](./writeups/Web/reports/norske-nokkelstudenter/README.md)
+[OxLE - Norske Nøkkelstudenter](./writeups/Web/Reports/norske-nokkelstudenter/README.md)
