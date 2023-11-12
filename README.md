@@ -50,6 +50,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [Sikom](/writeups/Web/shop-3/Sikom)  
  - **Partly**
  - **Reports**
+    - [OxLE - Norske Nøkkelstudenter](./writeups/Web/Reports/norske-nokkelstudenter/README.md)
  - **The Purple Pages**
 ### Reversing
  - **Bouncyball**
