@@ -9,3 +9,6 @@ Development is never easy but this time we have made a nice flag api that may gi
 
 ## Provided challenge files
 * [WebSite.tar.gz](WebSite.tar.gz)
+
+## Writeups
+[Sikom - Norske Nøkkelsnikere](/writeups/Web/Flag%20API/Sikom/README.md)
