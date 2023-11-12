@@ -51,6 +51,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 ### Reversing
  - **Bouncyball**
  - **Broken Mario**
+   - [datasnok](/writeups/Reversing/Broken%20Mario/datasnok/README.md)
  - **EPT1911**
  - **One True Flag**
 ### Crypto
