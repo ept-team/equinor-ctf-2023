@@ -1,13 +1,26 @@
-## Intro to tcache poisoning
-### EPT Pwn baby heap challenge
+# Veal and Car's first baby (heap).
+Author: nordbo
+
+Flag: `EPT{hEaPT_CtF_2O23!}`
+## Description
+```
+This challenge is intended to be an introduction to use after free and heap t-cache exploitation. Read the README.md in the handout.
+
+nc io.ept.gg 30005
+```
+
+## Provided challenge files
+* [vcs_handout.tar.gz](./vcs_handout.tar.gz)
+
+## Solution
+
+### Intro to tcache poisoning
 
 #### Poisoning tcache bins to create a write-what-where gadget and overwrite a GOT address.
 
 Author: krloer
 
 This was a pwn challenge at EPT CTF 2023 with 5 solves. It is perfect if you would like to learn about the tcache and tcache poisoning. The challenge files provided were a dockerfile, a dockerfile for development, a very nice README, the programs C code and the binary. I did not use the dev environment as I recently made my own template that attaches with gef and pwntools to a docker process. The gef script I'm sourcing can be found [here](https://github.com/bata24/gef) (but it is not necessary).
-
-Handout: [vcs_handout.tar.gz](vcs_handout.tar.gz)
 
 Reading and running the binary, it looks like a normal CRUD challenge with functions that Create, Read, Update and Delete heap chunks. Since the challenge description called it a tcache intro challenge, I immediately considered tcache poisoning which looked promising. For tcache poisoning to be a viable plan of attack we usually need a UAF and a Modify function, and we have both. The UAF exists because when the program calls free in the `delete()` function, it doesnt clear the heap pointer it frees. This means we can edit the address itemList\[idx] points to after it is free'd (-> UAF).
 
@@ -133,7 +146,9 @@ Running this locally gives us a shell, and running it against the remote lets us
 
 ![getting the flag](./images/flag.png "getting the flag")
 
-## Full exploit:
+If you liked this writeup, feel free to check out the original and other similar writeups at [ctf.krloer.com](https://ctf.krloer.com/writeups/ept/baby_heap/)
+
+### Full exploit:
 
 ```py
 #!/usr/bin/env python3
