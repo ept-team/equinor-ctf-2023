@@ -1,8 +1,9 @@
-### Intro to tcache poisoning
-#### EPT Pwn baby heap challenge
+## Intro to tcache poisoning
+### EPT Pwn baby heap challenge
 
-Poisoning tcache bins to create a write-what-where gadget and overwrite a GOT address.
-<!--more-->
+#### Poisoning tcache bins to create a write-what-where gadget and overwrite a GOT address.
+
+Author: krloer
 
 This was a pwn challenge at EPT CTF 2023 with 5 solves. It is perfect if you would like to learn about the tcache and tcache poisoning. The challenge files provided were a dockerfile, a dockerfile for development, a very nice README, the programs C code and the binary. I did not use the dev environment as I recently made my own template that attaches with gef and pwntools to a docker process. The gef script I'm sourcing can be found [here](https://github.com/bata24/gef) (but it is not necessary).
 
