@@ -43,6 +43,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **casino**
 	 - [NorskeNøkkelsnikere](/writeups/Misc/casino/NorskeNøkkelsnikere)  
  - **poisonpwn**
+    - [toffe](./writeups/Misc/poisonpwn/toffe/)
 ### Web
  - **Flag API**
     - [Sikom - Norske Nøkkelsnikere](/writeups/Web/Flag%20API/Sikom/README.md)
