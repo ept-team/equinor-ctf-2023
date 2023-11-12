@@ -44,6 +44,57 @@ u: Increment selected index in the array by one
 
 In the start of the second section, the first character in the flag body is selected, the first index in the array is selected and a second array of length 2 is created. The purpose of the second array is to save locations in the flag that the program can "jump" to.
 
+```
+  memset(Reg, 0, sizeof(Reg));
+  RegPtr = 0;
+  opcodeHelp = 4;
+  BreakOpLoopSwitch = 0;
+  numIterations = 0;
+  while ( 1 )
+  {
+    switch ( *(_BYTE *)(opcodeHelp + flag) )
+    {
+      case 'd':
+        --*((_BYTE *)extractedflagptr + index);
+        break;
+      case 'e':
+        if ( RegPtr <= 0 )
+        {
+          BreakOpLoopSwitch = 1;
+        }
+        else if ( *((char *)extractedflagptr + index) <= 0 )
+        {
+          --RegPtr;
+        }
+        else
+        {
+          opcodeHelp = *((_DWORD *)Reg + RegPtr - 1);
+        }
+        break;
+      case 'l':
+        --index;
+        break;
+      case 'r':
+        ++index;
+        break;
+      case 's':
+        *((_DWORD *)Reg + RegPtr++) = opcodeHelp;
+        break;
+      case 'u':
+        ++*((_BYTE *)extractedflagptr + index);
+        break;
+      default:
+        BreakOpLoopSwitch = 1;
+        break;
+    }
+    if ( ++numIterations > 750 )
+      return 0x270FLL;
+    if ( BreakOpLoopSwitch )
+      break;
+    opcodeHelp += 2;
+  }
+```
+
 To create a loop that would iterate over the array of 6 bytes and decrement them until all bytes are 0, we used a combination of dynamic analysis and logical thinking to create the final flag:
 
 `EPT{s8s1d5e3r4e7}`
