@@ -32,6 +32,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **DR Mal**
  - **Misery**
  - **Secured Exchange**
+    - [toffe](./writeups/Forensics/Secured%20Exchange/toffe/)
  - **Ratboy's Masterplan**
 ### Misc
  - **insufficient**
