@@ -56,4 +56,3 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **One True Flag**
 ### Crypto
  - **bloxor**
-
