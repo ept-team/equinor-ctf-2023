@@ -8,15 +8,15 @@ The reports application generates a report by executing the code found in the "R
 ### Exploitation
 The /api/Data endpoint allows users with the Admin role originating from a set of defined hostnames to add new reports to the database.
 
-To gain access to this endpoint, two headers must be set:
-Cookie: Role=Admin
-Host: localhost
-
-The next step is to craft a payload to retrieve the flag. However, there is a restriction: the code must not contain System.IO. To circumvent this limitation, we can alias System as another name, for example: using S = System;.
+To gain access to this endpoint, two headers must be set: 
+`Cookie: Role=Admin`
+`Host: localhost`
+ 
+The next step is to craft a payload to retrieve the flag. However, there is a restriction: the code must not contain `System.IO`. To circumvent this limitation, we can alias System as another name, for example: using `S = System;`.
 
 The final payload can be crafted as such:
 
-```
+```json
 {
     "id": "1001",
     "name": "Shit2",
@@ -26,7 +26,7 @@ The final payload can be crafted as such:
 
 This payload can then be sent to the Data endpoint. This must be repeated for appsettings.json too. After retrieving the ciphertext and the AES parameters, we can use the following code to decrypt: 
 
-```
+```csharp
 using System;
 using System.IO;
 using System.Security.Cryptography;
