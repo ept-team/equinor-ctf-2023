@@ -1,5 +1,4 @@
 
-
 # equinor-ctf-2023
 Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 
@@ -42,12 +41,13 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Dis is it!**
  - **Uncrackable zip revenge**
  - **casino**
+	 - [NorskeNøkkelsnikere](/writeups/Misc/casino/NorskeNøkkelsnikere)  
  - **poisonpwn**
 ### Web
  - **Flag API**
-    - [Sikom - Norske Nøkkelsnikere](/writeups/Web/Flag%20API/Sikom/README.md)
+	 - [Sikom](/writeups/Web/Flag%20API/Sikom)  
  - **shop-3**
-    - [Sikom - Norske Nøkkelsnikere](./writeups/Web/shop-3/Sikom/README.md)
+	 - [Sikom](/writeups/Web/shop-3/Sikom)  
  - **Partly**
  - **Reports**
  - **The Purple Pages**
