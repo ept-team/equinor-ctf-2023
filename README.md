@@ -23,10 +23,11 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Run, Forrest! Run!**
 ### Pwn
  - **Travel tracker**
-   - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
+    - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
  - **Easypwn**
  - **EPT EDR**
  - **Veal and Car's first baby (heap)**
+    - [WackAttack](/writeups/Pwn/Veal%20and%20Car's%20first%20baby%20(heap)/WackAttack)
  - **procmon**
 ### Forensics
  - **DR Mal**
