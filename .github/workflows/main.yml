@@ -1,0 +1,40 @@
+name: Update Writeup List 
+
+# Trigger the workflow when changes are pushed to the main branch
+# and the changes include the writeups file
+on:
+  push:
+    branches:
+      - main 
+    paths:
+      - writeups/**
+
+jobs:
+  update-readme:
+    # Use the latest version of Ubuntu as the runner environment
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the code at the specified pull request head commit
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Install Python 3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' 
+
+      # Execute the site_list.py Python script
+      - name: Execute updateWriteups.py 
+        run: python updateWriteups.py
+
+       # Commit any changes made by the script
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if ! git diff --exit-code; then
+            git commit -a -m "Updated Writeup List"
+            git push
+          fi
