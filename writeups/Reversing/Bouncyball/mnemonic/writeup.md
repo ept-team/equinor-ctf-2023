@@ -1,5 +1,12 @@
+# Bouncyball
+Writeup by Nikolas Papaioannou aka n0k0
 
-Web is shady -> Hint that it's something in the shader.
+
+Short demo video for those unable to run the challenge:
+https://www.youtube.com/watch?v=sABfHVuYVuE
+
+
+"Web is shady" -> Hint that it's something in the shader.
 
 Installed Windows and chrome just to render the thing.
 Fetched the render code with the help of the dev tools as hinted in the source code.
