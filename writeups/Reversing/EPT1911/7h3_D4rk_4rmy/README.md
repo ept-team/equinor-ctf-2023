@@ -1,20 +1,27 @@
+---
+title: EPT1911 - (REVERSE ENGINEERING) Equinor CTF Writeup
+date: 2023-11-13
+author: John Velo
+description: EPT1911
+---
+
 # EPT1911 - RE Writeup
 
 **Task Description:**
 
-![ept1911](Picture1.png)
+![ept1911](./images/Picture1.png)
 
 After unzipping the file, we were given only 1 tool to work with which was the ***KeyGen.exe***
 
-![ept1911](Picture2.png)
+![ept1911](./images/Picture2.png)
 
-![ept1911](Picture3.png)
+![ept1911](./images/Picture3.png)
 
 A weird key generator tool with title ***“Razor”***. Doing some light ***OSINT*** we find that razor is an actual tool used for keygen. 
 
-![ept1911](Picture4.png)
+![ept1911](./images/Picture4.png)
 
-![ept1911](Picture5.png)
+![ept1911](./images/Picture5.png)
 
 We also find that it’s a *Norwegian demo group* since 1986.
 
@@ -22,17 +29,17 @@ We also find that it’s a *Norwegian demo group* since 1986.
 
 I see that it’s a tool compiled using ***.NET***. This is good news since we can use ***dnSpy*** to see the source code of the program.
 
-![ept1911](Picture6.png)
+![ept1911](./images/Picture6.png)
 
-![ept1911](Picture7.png)
+![ept1911](./images/Picture7.png)
 
 *The source code*
 
-![ept1911](Picture8.png)
+![ept1911](./images/Picture8.png)
 
 *This checks if the computer is part of the domain contoso.com, then prints the flag.*
 
-![ept1911](Picture9.png)
+![ept1911](./images/Picture9.png)
 
 *The encoded part of the flag.*
 
@@ -53,9 +60,9 @@ print(flag)
 
 ```
 
-![ept1911](Picture10.png)
+![ept1911](./images/Picture10.png)
 
-![ept1911](Picture11.png)
+![ept1911](./images/Picture11.png)
 
 **SIKE**
 
@@ -63,7 +70,7 @@ I got this flag, but it was wrong. I was stuck because I didn’t know if I was 
 
 I then went back to the source code and found the crucial part that I missed. 
 
-![ept1911](Picture12.png)
+![ept1911](./images/Picture12.png)
 
 This was the part of the code which adds *‘!’* to the end of the string, completing the flag.
 
@@ -78,8 +85,8 @@ print(flag)
 
 ```
 
-![ept1911](Picture13.png)
+![ept1911](./images/Picture13.png)
 
 After running the new script, I finally got the correct ***flag!***
 
-![ept1911](Picture14.png)
+![ept1911](./images/Picture14.png)
