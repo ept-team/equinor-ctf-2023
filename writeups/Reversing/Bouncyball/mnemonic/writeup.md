@@ -2,7 +2,7 @@
 Writeup by Nikolas Papaioannou aka n0k0
 
 
-Short demo video for those unable to run the challenge:
+Short demo video for those unable to run the challenge:  
 https://www.youtube.com/watch?v=sABfHVuYVuE
 
 
@@ -12,7 +12,7 @@ Installed Windows and chrome just to render the thing.
 Fetched the render code with the help of the dev tools as hinted in the source code.
 When opening the WebGPU devtool you are presented with only one shader module, and its code, I assumed something had to be hidden there.
 
-Some images of how the tool looks can be found in its repo:
+Some images of how the tool looks can be found in its repo:  
 https://github.com/takahirox/webgpu-devtools
 
 
@@ -20,7 +20,6 @@ It's a WGSL shader, based on looking at the code for a bit. Not that important, 
 
 The arena is a ball bouncing around a 4x4 grid, I assume this is a sort of code that encodes the flag into the bounces.
 
-TODO: Insert YouTube video of the ball bouncing around
 
 So I start perusing the code and im met with a huge matrix of values, whole number floats, that looks like this:
 
