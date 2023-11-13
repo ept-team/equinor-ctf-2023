@@ -37,7 +37,7 @@ Relationships       |                    |          |such as remote templates,
 
 As seen in the output above, this document contains VBA macros. As stated in the output, we can use utilize `olevba` to get more info about the VBA macro.
 
-```
+```console
 $ olevba Mal.doc
 olevba 0.60.1 on Python 3.11.5 - http://decalage.info/python/oletools
 ===============================================================================
