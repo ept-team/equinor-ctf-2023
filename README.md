@@ -35,6 +35,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Uncrackable zip revenge**
  - **poisonpwn**
 	 - [toffe](/writeups/Misc/poisonpwn/toffe)  
+	 - [7h3_D4rk_4rmy](/writeups/Misc/poisonpwn/7h3_D4rk_4rmy)  
  - **Dis is it!**
  - **insufficient**
 	 - [toffe](/writeups/Misc/insufficient/toffe)  
