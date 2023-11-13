@@ -32,7 +32,7 @@ hashcat -a 0 -m 5600 ./ratboy.hash /usr/share/wordlists/rockyou.txt
 
 This revealed the following user and password pairs: ```admin:admin``` and ```ratboy_view:millencolinnofx```.
 
-Now looking at the traffic, there is a lot of traffic to the *port 4899* from the domain *ratboy.lolasl.com*. Port 4899 is the default port for the *radmin* tool. Given that the key is for the user *ratboy_view*. It could mean that ratboy accidentially leaked his own key for the service. The tool *radmin* can be downloaded [here](https://www.radmin.com/no/download/). This traffic is illustrated here.
+Now, looking at the traffic, there is a lot of traffic to the *port 4899* from the domain *ratboy.lolasl.com*. Port 4899 is the default port for the *radmin* tool. Given that the key is for the user *ratboy_view*. It could mean that ratboy accidentially leaked his own key for the service. The tool *radmin* can be downloaded [here](https://www.radmin.com/no/download/). This traffic is illustrated here.
 
 ![The domain ratboy is attacking from](ratboy.png)
 
