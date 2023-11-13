@@ -42,7 +42,7 @@ don`t hesitate to contact me.
 Regards.
 ```
 
-Naturally, the user thereafter accessess http://secure.ept.gg/secure.html, which provides the user with these instructions.
+Naturally, the user thereafter accessess ```http://secure.ept.gg/secure.html```, which provides the user with these instructions.
 
 ![Alt text](EPTSecure.png)
 
