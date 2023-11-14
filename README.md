@@ -25,6 +25,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **The Purple Pages**
 	 - [7h3_D4rk_4rmy](/writeups/Web/The%20Purple%20Pages/7h3_D4rk_4rmy)  
  - **Partly**
+	 - [RumbleInTheJungle](/writeups/Web/Partly/RumbleInTheJungle)  
  - **Flag API**
 	 - [toffe](/writeups/Web/Flag%20API/toffe)  
 	 - [Sikom](/writeups/Web/Flag%20API/Sikom)  
@@ -63,6 +64,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [coldboots](/writeups/Crypto/bloxor/coldboots)  
 ### Forensics
  - **DR Mal**
+	 - [RumbleInTheJungle](/writeups/Forensics/DR%20Mal/RumbleInTheJungle)  
 	 - [UiACTF](/writeups/Forensics/DR%20Mal/UiACTF)  
  - **Misery**
  - **Ratboy's Masterplan**
