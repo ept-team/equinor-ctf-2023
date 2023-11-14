@@ -80,5 +80,6 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Veal and Car's first baby (heap)**
 	 - [WackAttack](/writeups/Pwn/Veal%20and%20Car's%20first%20baby%20(heap)/WackAttack)  
  - **EPT EDR**
+	 - [rumbleinthejungle](/writeups/Pwn/EPT%20EDR/rumbleinthejungle)  
  - **procmon**
 	 - [iku-toppene-uten-quotes](/writeups/Pwn/procmon/iku-toppene-uten-quotes)  
