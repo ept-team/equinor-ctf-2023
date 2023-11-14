@@ -67,6 +67,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [RumbleInTheJungle](/writeups/Forensics/DR%20Mal/RumbleInTheJungle)  
 	 - [UiACTF](/writeups/Forensics/DR%20Mal/UiACTF)  
  - **Misery**
+	 - [Corax](/writeups/Forensics/Misery/Corax)  
  - **Ratboy's Masterplan**
 	 - [RumbleInTheJungle](/writeups/Forensics/Ratboy's%20Masterplan/RumbleInTheJungle)  
 	 - [coldboots](/writeups/Forensics/Ratboy's%20Masterplan/coldboots)  
