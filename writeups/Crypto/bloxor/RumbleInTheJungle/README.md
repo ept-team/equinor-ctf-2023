@@ -1,13 +1,7 @@
 # bloxor
 Author: Surprior
 
-## Description
-```
-Simple XOR is too easy to crack. Blocks will makes it strong, without any weaknesses. Right?
-```
 
-## Provided challenge files
-* [crypt.zip](../crypt.zip)
 
 ## Writeup
 
