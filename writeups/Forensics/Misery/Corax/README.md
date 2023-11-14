@@ -10,6 +10,7 @@ Disaster! Our most important files have been stolen and are locked with what app
 ## Provided challenge files
 * [misery.zip](misery.zip)
 
+
 ## Writeup
 While having a peek at the provided 2023-09-06T082701_asl.vhdx, we found an unintended solution.
 Basically, we're able to extract the unencrypted flag.txt with bulk_extractor;
