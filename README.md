@@ -34,6 +34,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **casino**
 	 - [NorskeNøkkelsnikere](/writeups/Misc/casino/NorskeNøkkelsnikere)  
  - **Uncrackable zip revenge**
+	 - [RumbleInTheJungle](/writeups/Misc/Uncrackable%20zip%20revenge/RumbleInTheJungle)  
 	 - [iku-toppene](/writeups/Misc/Uncrackable%20zip%20revenge/iku-toppene)  
  - **poisonpwn**
 	 - [toffe](/writeups/Misc/poisonpwn/toffe)  
