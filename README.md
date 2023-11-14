@@ -51,6 +51,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [FoxMaccloud](/writeups/Reversing/EPT1911/FoxMaccloud)  
 	 - [7h3_D4rk_4rmy](/writeups/Reversing/EPT1911/7h3_D4rk_4rmy)  
  - **One True Flag**
+	 - [RumbleInTheJungle](/writeups/Reversing/One%20True%20Flag/RumbleInTheJungle)  
 ### Onsite
  - **Run, Forrest! Run!**
 	 - [iku-toppene](/writeups/Onsite/Run,%20Forrest!%20Run!/iku-toppene)  
@@ -58,6 +59,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **NOAHS ARK**
 ### Crypto
  - **bloxor**
+	 - [RumbleInTheJungle](/writeups/Crypto/bloxor/RumbleInTheJungle)  
 	 - [coldboots](/writeups/Crypto/bloxor/coldboots)  
 ### Forensics
  - **DR Mal**
@@ -66,6 +68,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Ratboy's Masterplan**
 	 - [coldboots](/writeups/Forensics/Ratboy's%20Masterplan/coldboots)  
  - **Secured Exchange**
+	 - [RumbleInTheJungle](/writeups/Forensics/Secured%20Exchange/RumbleInTheJungle)  
 	 - [toffe](/writeups/Forensics/Secured%20Exchange/toffe)  
 ### Pwn
  - **Travel tracker**
