@@ -1,4 +1,5 @@
 Author: nordbo
+
 Flag: `EPT{overfl0w_in_th3_m0n1t0r}`
 
 ## Solve
@@ -26,7 +27,7 @@ ept        207   ./process_monitor
 ```
 
 And by listing details for the `./process_monitor` process we get this
-![[img1.png]]
+![](img1.png)
 This is the entire virtual memory map of the process, and we can use this info to call functions in libc.
 
 #### Reversing the binary
@@ -57,10 +58,10 @@ void show_process_detail(void)
 
 #### Finding offsett
 By sending in a long enough pattern we get a segfault:
-![[img2.png]]
+![](img2.png)
 
 Then we find the offsett in pwndbg:
-![[img3.png]]
+![](img3.png)
 ```sh
 $ pwn cyclic -l 0x6163696161626961
 802
@@ -137,6 +138,6 @@ io.interactive()
 ```
 
 By running this we get a shell!
-![[img4.png]]
+![](img4.png)
 
 
