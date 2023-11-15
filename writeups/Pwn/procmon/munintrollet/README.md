@@ -143,3 +143,4 @@ By running this we get a shell!
 ![](img4.png)
 
 
+The entire solvescript can be found here: [exploit.py](exploit.py)
