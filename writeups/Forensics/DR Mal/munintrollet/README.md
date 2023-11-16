@@ -13,6 +13,7 @@ Forget about DRE, Mal D.O.C in da house!
 
 ---
 
+## Solve
 **By Oslolosen**
 
 This was a really cool challenge. Finally, a VBA challenge where you don't have to spend 100 hours trying to deobfuscate the VBA code.
