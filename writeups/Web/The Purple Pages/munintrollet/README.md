@@ -4,27 +4,35 @@
 **Description:**  
 Call me, maybe
 
-**Site:** purplepages
+**Site:** [purplepages](https://purplepages.io.ept.gg/)
 
 ---
 
-## Solve
+## Professional Analysis
 **By A.Meland**
 
 ### WRITEUP – PURPLE PAGES – EPT 2023
 
-When we open the website: [https://purplepages.io.ept.gg/](https://purplepages.io.ept.gg/), we were presented with this login page.
+**Initial Engagement:**  
+The "THE PURPLE PAGES" challenge commenced with an interface typical of web-based login forms, accessible at [https://purplepages.io.ept.gg/](https://purplepages.io.ept.gg/). This setup provided an ideal testbed for assessing and exploiting common web vulnerabilities.
 
 ![Login Page](loginpage1.png)
 
-My first thought when seeing a login page like this is to try some of the most common usernames and passwords. If that doesn’t work, I go over to SQL-injections. 
+**Tactics and Strategy:**  
+Confronted with the login interface, my preliminary tactic was to test against standard credential pairs, a method revealing potential weaknesses in rudimentary authentication systems. The attempt with 'admin' as both username and password, however, did not yield access, necessitating a pivot to more advanced penetration techniques.
 
-First, I tried admin – admin, but no luck here. I then tried a SQL-injection for the password, `' OR '1'='1' --`, and kept admin as username. And what do you know! It worked!
+**Exploitation via SQL Injection:**  
+My next course of action involved leveraging SQL injection, a critical web application vulnerability. The injection string `' OR '1'='1' --` was deployed in the password field while maintaining 'admin' as the username. This SQL statement, ingeniously simple yet effective, successfully circumvented the authentication process, highlighting the susceptibility of the system to injection attacks.
 
 ![Welcome Page](welcomepage1.png)
 
-After successfully logging in using SQL-injection, we gained access to the system.
+**Conclusion and Reflection:**  
+Gaining unauthorized access underscored the imperative for robust security measures in web applications. This exercise vividly illustrates the necessity for developers to be vigilant against SQL injection vulnerabilities, a perennial threat in the cybersecurity landscape.
 
 ---
 
-**Flag:** `EPT{ph0n3b00k_c3ntr4l_d4t4b453_d0wn}`
+**Flag Captured:** `EPT{ph0n3b00k_c3ntr4l_d4t4b453_d0wn}`
+
+---
+
+*Ethical Reminder:* This writeup serves purely educational purposes. The SQL injection technique employed in this challenge underscores a prevalent security risk. It is imperative to practice such skills ethically, confined to legal frameworks and educational environments like CTF challenges.
