@@ -1,7 +1,7 @@
 # Flag API
 
 <p>
-    <img src="img/flagapi_chall.png" alt="Challenge" width="450"/>
+    <img src="img/flagapi_chall.png" alt="Challenge" width="500"/>
 </p>
 
 Opening the webpage of the challenge we onyl see `no website hosted here `, but we are given the C# source code for the website.
@@ -76,7 +76,7 @@ static string encrypt(string value, int shift)
 To retrieve the flag we ROT13 `eptctforthewin` and base64 encode the value. If we pass this as the value of the HTTP-header `Secret`, and the Host-header `localhost` or `impossible.ept.gg`, we should get the flag.
 
 <p>
-    <img src="img/cyberchef.png" alt="Challenge" width="450"/>
+    <img src="img/cyberchef.png" alt="Challenge" width="500"/>
 </p>
 
 ```console
