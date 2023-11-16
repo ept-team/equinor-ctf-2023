@@ -42,6 +42,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Dis is it!**
  - **insufficient**
 	 - [toffe](/writeups/Misc/insufficient/toffe)  
+	 - [mnemonic](/writeups/Misc/insufficient/mnemonic)  
  - **Trust but verify**
 	 - [norske-nokkelstudenter](/writeups/Misc/Trust%20but%20verify/norske-nokkelstudenter)  
 ### Reversing
@@ -67,6 +68,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **DR Mal**
 	 - [RumbleInTheJungle](/writeups/Forensics/DR%20Mal/RumbleInTheJungle)  
 	 - [UiACTF](/writeups/Forensics/DR%20Mal/UiACTF)  
+	 - [mnemonic](/writeups/Forensics/DR%20Mal/mnemonic)  
  - **Misery**
 	 - [Corax](/writeups/Forensics/Misery/Corax)  
  - **Ratboy's Masterplan**
