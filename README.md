@@ -85,6 +85,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
  - **Easypwn**
 	 - [toffe](/writeups/Pwn/Easypwn/toffe)  
+	 - [TeDe](/writeups/Pwn/Easypwn/TeDe)  
 	 - [7h3_D4rk_4rmy](/writeups/Pwn/Easypwn/7h3_D4rk_4rmy)  
  - **Veal and Car's first baby (heap)**
 	 - [WackAttack](/writeups/Pwn/Veal%20and%20Car's%20first%20baby%20(heap)/WackAttack)  
