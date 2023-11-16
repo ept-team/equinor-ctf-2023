@@ -136,13 +136,13 @@ Program.CreateLocalUserAndAddToAdminGroup("EPT", text);
 We run the program with the debugger attached. When we hit the first breakpoint we see, as expected, that the return value is `false`. However, we can just change it directly to `true` instead
 
 <p>
-    <img src="img/breakpoint1.png" alt="Breakpoint 1" width="700">
+    <img src="img/breakpoint1.png" alt="Breakpoint 1" width="800">
 </p>
 
 When we hit the next breakpoint we see most of the flag, remembering that `!}` appended to the flag inside the `CreateLocalUserAndAddToAdminGroup` function
 
 <p>
-    <img src="img/breakpoint2.png" alt="Breakpoint 2" width="700">
+    <img src="img/breakpoint2.png" alt="Breakpoint 2" width="800">
 </p>
 
 ```
