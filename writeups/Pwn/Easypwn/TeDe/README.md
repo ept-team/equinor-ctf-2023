@@ -1,6 +1,6 @@
 # EASYPWN
 
-<p align="center">
+<p>
     <img src="img/easypwn_chall.png" alt="Challenge" width="500"/>
 </p>
 
