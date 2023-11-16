@@ -38,6 +38,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [iku-toppene](/writeups/Misc/Uncrackable%20zip%20revenge/iku-toppene)  
  - **poisonpwn**
 	 - [toffe](/writeups/Misc/poisonpwn/toffe)  
+	 - [mnemonic](/writeups/Misc/poisonpwn/mnemonic)  
 	 - [7h3_D4rk_4rmy](/writeups/Misc/poisonpwn/7h3_D4rk_4rmy)  
  - **Dis is it!**
  - **insufficient**
@@ -49,6 +50,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **Bouncyball**
 	 - [mnemonic](/writeups/Reversing/Bouncyball/mnemonic)  
  - **Broken Mario**
+	 - [bootplug](/writeups/Reversing/Broken%20Mario/bootplug)  
 	 - [datasnok](/writeups/Reversing/Broken%20Mario/datasnok)  
  - **EPT1911**
 	 - [FoxMaccloud](/writeups/Reversing/EPT1911/FoxMaccloud)  
@@ -88,4 +90,5 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **EPT EDR**
 	 - [rumbleinthejungle](/writeups/Pwn/EPT%20EDR/rumbleinthejungle)  
  - **procmon**
+	 - [munintrollet](/writeups/Pwn/procmon/munintrollet)  
 	 - [iku-toppene-uten-quotes](/writeups/Pwn/procmon/iku-toppene-uten-quotes)  
