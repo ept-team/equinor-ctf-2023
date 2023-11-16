@@ -22,6 +22,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [7h3_D4rk_4rmy](/writeups/Web/shop-3/7h3_D4rk_4rmy)  
  - **Reports**
 	 - [norske-nokkelstudenter](/writeups/Web/Reports/norske-nokkelstudenter)  
+	 - [Corax](/writeups/Web/Reports/Corax)  
  - **The Purple Pages**
 	 - [7h3_D4rk_4rmy](/writeups/Web/The%20Purple%20Pages/7h3_D4rk_4rmy)  
  - **Partly**
