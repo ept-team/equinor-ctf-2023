@@ -61,8 +61,9 @@ public static void CreateLocalUserAndAddToAdminGroup(string user, string pass){
 }
 ```
 
-There is only one interesting function in the `EPT1911` call, and it calls both function from the `Program` class.
-The function checks if the local machine domain is `contoso.com`, and if so it adds `42` to the values of `Settings.Default.encpw` and appends it to the string `EPT{`. From looking at the `CreateLocalUserAndAddToAdminGroup` function earlier we know that this is the password created for the local user the program tries to create on our machine.
+There is only one interesting function in the `EPT1911` class, and it calls both functions we just saw from the `Program` class.
+
+The function checks if the local machine domain is `contoso.com`, and if so it adds `42` to the values of `Settings.Default.encpw`, and appends it to the string `EPT{`. From looking at the `CreateLocalUserAndAddToAdminGroup` function earlier, we know that this is the password created for the local user the program tries to create on our machine.
 ```cs
 private void LegitStuff_Loader(){
     if (Program.IsMachineInDomain("contoso.com")){
@@ -135,13 +136,13 @@ Program.CreateLocalUserAndAddToAdminGroup("EPT", text);
 We run the program with the debugger attached. When we hit the first breakpoint we see, as expected, that the return value is `false`. However, we can just change it directly to `true` instead
 
 <p>
-    <img src="img/breakpoint1.png" alt="Breakpoint 1" width="500">
+    <img src="img/breakpoint1.png" alt="Breakpoint 1" width="700">
 </p>
 
 When we hit the next breakpoint we see most of the flag, remembering that `!}` appended to the flag inside the `CreateLocalUserAndAddToAdminGroup` function
 
 <p>
-    <img src="img/breakpoint2.png" alt="Breakpoint 2" width="500">
+    <img src="img/breakpoint2.png" alt="Breakpoint 2" width="700">
 </p>
 
 ```
