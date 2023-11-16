@@ -2,8 +2,8 @@
 from os import listdir, makedirs, walk
 from os.path import isfile, join, exists, basename
 text = """
-# equinor-ctf-2022
-> Educational guides, writeups and challenges resources for the 2022 Equinor CTF
+# equinor-ctf-2023
+Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 
 
 ## Table of content
