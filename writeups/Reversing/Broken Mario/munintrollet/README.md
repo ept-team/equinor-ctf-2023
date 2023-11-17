@@ -12,6 +12,8 @@ Help! My Mario game has been H A C K E D :( Also, I can't find my password that 
 Our approach to solving the "🔥 BROKEN MARIO 🔥" challenge was an exercise in resilience and strategy, albeit a somewhat frustrating one. The task at hand was to play through a hacked version of a Mario game, which will go down in history as being notorious for its poor controls and challenging gameplay.
 
 ### Challenge Mechanics:
+
+![mario](mario1.png)
 The key to uncovering the flag lay in the game's "blocks." These blocks needed to be hit in a precise order to reveal the flag. Any incorrect move resulted in the puzzle resetting, adding an extra layer of difficulty.
 
 ### Brute Force Approach:
