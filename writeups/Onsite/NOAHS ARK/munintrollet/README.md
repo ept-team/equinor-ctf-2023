@@ -18,6 +18,8 @@ RULES:
 
 Noahs ark puzzle is really simple, so simple that one might even say ~a five-year-old~ coldboots will solve it.
 
+Like last year we were able to first blood this challenge by utilizing state of the art puzzle solving algorithms.
+
 ### Basics
 Rules are simple: you start with 2 animals on the grid. All animals must end up next to its kin, or the other piece of the same color. And all spaces must be filled, and all pieces placed. The sharp-eyed might notice that the width and height of the spaces is different. That means that each individual piece can only be placed in one singular way as all animals should be placed upright.
 
