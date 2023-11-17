@@ -17,6 +17,3 @@ There might be a prize for the special one who is able to navigate this piece of
 
 ## Provided challenge files
 * [WebSite.tar.gz](WebSite.tar.gz)
-
-## Writeups
-[OxLE - Norske Nøkkelstudenter](./writeups/Web/Reports/norske-nokkelstudenter/README.md)
