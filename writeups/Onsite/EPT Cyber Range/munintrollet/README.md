@@ -11,13 +11,21 @@ The top 3 overall will receive an EPT coin.
 ## Solve
 **By mathias, Lise??, & Tuxern**
 
+![Shooter2](shooter2.png)
+
 ### Challenge Mechanics
 In this unique challenge, participants were equipped with two guns loaded with 10-15 "soft bullets." The objective was to shoot down an 8-bit binary combination. This combination was derived from the addition of two hexadecimal numbers displayed on a screen. Each participant had 30 seconds to perform the calculation mentally and then accurately hit the corresponding targets. Each successful attempt earned one point. The challenge continued until an incorrect number was hit or time ran out.
 
 You had an infinite amount of ammo, but you had to reload at strategic points in order to be succseful within the timelimit
 
+![Shooter1](shoot1.jpg)
+
 ### Our Experience
 We achieved first blood in this challenge, a testament to our quick calculation and sharpshooting skills. However, maintaining our position at the top of the leaderboard proved challenging due to the degradation of the electronics. This malfunction led to errors and random resets, especially when participants were on a winning streak.
+
+![Shooter3](highscore3.png)
+
+I can with the uttermost confidence say that we would have beaten bootplug if the electronics were working as intended, but at this time the only thing we can do is congratulate bootplug on their highscore of 18.
 
 ### Strategy Employed
 Our analyst mathias employed a specific strategy for calculating the correct binary combination: 
