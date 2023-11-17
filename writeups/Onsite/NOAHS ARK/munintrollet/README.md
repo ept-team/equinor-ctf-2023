@@ -1,67 +1,69 @@
-# NOAH’S ARK
+  # NOAH’S ARK
 **Author:** Mattis  
 
-
 ## Description
-Solve the puzzle and save all the animals. Show the solved puzzle to EPT staff to receive the flag. Each participant receives a random puzzle of similar difficulty from a pool.
+Solve the puzzle and save all the animals. Show the solved puzzle to EPT staff to receive flag.
 
-### Rules:
-- No phones allowed in the IQ puzzle area. Penalties apply for rule violations.
-- Team collaboration is permitted.
-- Leaving the puzzle area requires forfeiting the attempt. A new puzzle will be given upon re-entry.
+You will receive a random puzzle to solve from a pool of puzzles of similar difficulty.
 
-![Noah's Ark Puzzle](https://ministryark.com/katy/wp-content/uploads/2018/01/Noahs-Ark-960x675.jpg)
+RULES:
+- Do not bring a phone to the IQ puzzle area. There will be severe consequences point-wise if you are caught haxxing.
+- You can collaborate with others from your team.
+- If you, or anyone from your group/team leaves the puzzle area, you must turn in the puzzle sheet and forfeit your attempt. On re-entry, you will receive a new random puzzle to solve from the pool.
 
----
+![Noah's Ark Puzzle Image](https://ministryark.com/katy/wp-content/uploads/2018/01/Noahs-Ark-960x675.jpg)
 
 ## Solve
-**By mathias & Lise??**
+**By Mathias & Lise**
 
-### Noah's Ark Puzzle Analysis
+Noahs ark puzzle is really simple that one might even say a five-year-old will solve it. Flag:<…> (Vet ikke om vi har den, lå på Mathias Mellingens plass som et papir ark)
+Basics
+Rules are simple: you start with 2 animals on the grid. All animals must end up next to its kin, or the other piece of the same color. And all spaces must be filled, and all pieces placed. The sharp-eyed might notice that the width and height of the spaces is different. That means that each individual piece can only be placed in one singular way as all animals should be placed upright.
 
-**Basics:**  
-The puzzle begins with two animals on a grid. The objective is to place all animals next to their kin of the same color, filling every space and placing all pieces upright.
+The first conclusion one can draw is that each piece is either 2 or 3 spaces big. In combination they make a variety of forms as shown below:
 
-![](1.png) 
+(Images of puzzle steps and conclusions)
 
-**Initial Observations:**  
-Each piece occupies either 2 or 3 grid spaces. Notably, the grid's dimensions vary, implying that each piece has a unique placement.
+Starting the puzzle
+For example, for the task shown above, then the only valid pentominoes are 1, 2, 4, 7 and 8. 7 is invalid cause it leaves a single free space in the corner. And 2 is invalid cause it leaves 4 free spaces in the corner. Where one would need 5 spaces to make a pentomino. This leaves us with only 3 options which can then be tested 1, 4 and 8.
 
-![](2.png) 
+The trick then is to always look for the more restricting cases then rule them out. For example, using pentomino number 8 will lead to a very hard spot to fill.
 
-### Strategy and Solution Process
+A quick look through the remaining pieces leads us to the fact that it’s impossible to fill.
 
-**Starting Point:**  
-Consider an example puzzle where the valid pentominoes are 1, 2, 4, 7, and 8. Options 7 and 2 are quickly discarded due to leaving impractical free spaces.
+Then testing the zebra horizontal number 4 option.
 
-**Restrictive Cases Analysis:**  
-The key strategy involves identifying and ruling out restrictive cases. For instance, using pentomino number 8 creates difficult-to-fill spaces.
+Where one would start to reduce the options, here is the second blue piece. It has 5 options.
 
-![](3.png) 
+All remaining pairs contain 5 spaces, aka pentominoes. Both option 2 and 3 split the grid into two sections. Where the size of the right side of the ark has 6 or 7 spaces. Which can’t be made of pentominoes.
 
-**Option Analysis:**  
-We proceed to analyze each option by testing the placement of pieces and the implications for filling the remaining spaces.
+Option 4 looks very restrictive and since we know that it’s built from pentominoes we can find where the pentominoes are.
 
-- **Option 1 (Hippo placement):** Leads to impossible configurations for the lion and other spaces.
-- **Options 2 and 3:** Split the grid unfeasibly.
-- **Option 4:** Too restrictive; lion pieces don’t fit.
-- **Option 5:** Also unfeasible for lion pieces.
+Quick testing results in that the lion pieces can’t be placed into any of these pentominoes.
 
+Option 5 we can also find the pentominoes.
 
-**Final Determination:**  
-The only remaining viable option is the first placement of the horizontal zebra. This arrangement leaves 10 spaces on the left (a multiple of 5) and requires strategic placement on the right to ensure all spaces are filled optimally.
+In both options the Lion pieces doesn’t fit in any pentomino.
 
-**Conclusive Steps:**  
-- Starting from the right side, we find the only fitting pentominoes are for the elephants or giraffes.
-- The most restrictive piece, the yellow lioness, helps in eliminating non-viable configurations.
+Only remaining option is the 1 placement of the 2-space hippo.
 
-### Conclusion
-The solution process involves a systematic elimination of options based on the puzzle's constraints and the unique placement requirements of each piece. The final configuration, satisfying all conditions, represents the solution to the puzzle.
+Lion doesn’t fit in either 1-2 or 1-3. While nothing can fill the left side of the ark on 1-1.
 
-![](15.png) 
+This excluded the last option for the placement of the horizontal zebra piece in position 4.
 
-**Flag:** `EPT{puzzle_solv3r_megamind}`
+Last to check would be placement number 1 of the horizontal zebra. Which means both sides must contain a number of spaces which is divisible by 5.
 
----
+Now we have 10 spaces on the left, which is a multiple of 5. While we have 7 on the right, which means that the second blue tile must be put in the corner to make the remaining spaces 5 on the right.
 
-*Note: This writeup details the logical approach and methodology employed to solve the "NOAH’S ARK" puzzle challenge in an educational context.*
+A lot can happen on the left side of the ark, so I would start on the right side. Through some quick testing we find the only fitting pentomino is the purple with elephants or the giraffes.
+
+Then again find the most restricting piece, which would be the fewest options for placement. That would be the yellow lioness piece:
+
+We can immediately rule out 2 and 5 as they leave one space trapped.
+
+Just test every combination
+Number 4 can quickly be disproven, by not being able to place the Lion without trapping a space.
+
+Number 3 is ruled out by not being able to place the giraffes.
+
+Number 1 and 3 can’t place the 2-space giraffe, while number 2 can’t place any giraffe pieces
