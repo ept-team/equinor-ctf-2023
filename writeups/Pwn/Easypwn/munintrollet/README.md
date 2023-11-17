@@ -1,6 +1,7 @@
 # easypwn
 
 author: surprior
+
 flag: `EPT{S0meth1n6_2_ge7_u_5t4rt3d}`
 
 ## Solve
@@ -68,10 +69,10 @@ void winner(void)
 ### Creating the exploit
 
 We send a lot of chars into the program and see it crash at the `ret` of the `hello` function
-![](EPT_2023/easypwn/img1.png)
+![](img1.png)
 
 We can then find the offset, which in this case is 40.
-![](EPT_2023/easypwn/img2.png)
+![](img2.png)
 
 The script will therefore look like this
 ```python
@@ -88,6 +89,6 @@ io.interactive()
 
 
 By running this we get the flag!
-![](EPT_2023/easypwn/img3.png)
+![](img3.png)
 
 The whole exploit script can be found here: [exploit.py](exploit.py)
