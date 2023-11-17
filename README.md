@@ -18,6 +18,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 
 ### Web
  - **shop-3**
+	 - [RumbleInTheJungle](/writeups/Web/shop-3/RumbleInTheJungle)  
 	 - [Sikom](/writeups/Web/shop-3/Sikom)  
 	 - [7h3_D4rk_4rmy](/writeups/Web/shop-3/7h3_D4rk_4rmy)  
  - **Reports**
