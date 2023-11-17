@@ -37,4 +37,4 @@ This email contained the crucial piece of information we needed – the password
 ### Retrieving the Flag:
 Upon unzipping the file and applying the discovered password, we successfully accessed the contents and retrieved the flag.
 
-#### Flag: `EPT{DuDe_WheRe_Is_My_FlAg}`
+Flag: `EPT{DuDe_WheRe_Is_My_FlAg}`
