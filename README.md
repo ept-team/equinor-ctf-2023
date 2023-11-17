@@ -24,6 +24,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [norske-nokkelstudenter](/writeups/Web/Reports/norske-nokkelstudenter)  
 	 - [Corax](/writeups/Web/Reports/Corax)  
  - **The Purple Pages**
+	 - [munintrollet](/writeups/Web/The%20Purple%20Pages/munintrollet)  
 	 - [7h3_D4rk_4rmy](/writeups/Web/The%20Purple%20Pages/7h3_D4rk_4rmy)  
  - **Partly**
 	 - [RumbleInTheJungle](/writeups/Web/Partly/RumbleInTheJungle)  
@@ -53,8 +54,10 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [mnemonic](/writeups/Reversing/Bouncyball/mnemonic)  
  - **Broken Mario**
 	 - [bootplug](/writeups/Reversing/Broken%20Mario/bootplug)  
+	 - [munintrollet](/writeups/Reversing/Broken%20Mario/munintrollet)  
 	 - [datasnok](/writeups/Reversing/Broken%20Mario/datasnok)  
  - **EPT1911**
+	 - [munintrollet](/writeups/Reversing/EPT1911/munintrollet)  
 	 - [TeDe](/writeups/Reversing/EPT1911/TeDe)  
 	 - [FoxMaccloud](/writeups/Reversing/EPT1911/FoxMaccloud)  
 	 - [7h3_D4rk_4rmy](/writeups/Reversing/EPT1911/7h3_D4rk_4rmy)  
@@ -65,6 +68,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [iku-toppene](/writeups/Onsite/Run,%20Forrest!%20Run!/iku-toppene)  
  - **EPT Cyber Range**
  - **NOAHS ARK**
+	 - [munintrollet](/writeups/Onsite/NOAHS%20ARK/munintrollet)  
 ### Crypto
  - **bloxor**
 	 - [RumbleInTheJungle](/writeups/Crypto/bloxor/RumbleInTheJungle)  
@@ -73,6 +77,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **DR Mal**
 	 - [RumbleInTheJungle](/writeups/Forensics/DR%20Mal/RumbleInTheJungle)  
 	 - [UiACTF](/writeups/Forensics/DR%20Mal/UiACTF)  
+	 - [munintrollet](/writeups/Forensics/DR%20Mal/munintrollet)  
 	 - [mnemonic](/writeups/Forensics/DR%20Mal/mnemonic)  
  - **Misery**
 	 - [SECCLO](/writeups/Forensics/Misery/SECCLO)  
@@ -88,6 +93,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
  - **Easypwn**
 	 - [toffe](/writeups/Pwn/Easypwn/toffe)  
+	 - [munintrollet](/writeups/Pwn/Easypwn/munintrollet)  
 	 - [TeDe](/writeups/Pwn/Easypwn/TeDe)  
 	 - [7h3_D4rk_4rmy](/writeups/Pwn/Easypwn/7h3_D4rk_4rmy)  
  - **Veal and Car's first baby (heap)**
