@@ -7,7 +7,7 @@ CICD's automation is great and comfy, but I sense a chilly draft. Can you find t
 URL: `io.ept.gg:#####`
 
 ### Solve
-By Hansern
+**By Hansern**
 
 #### Key Findings
 The most interesting thing found around the site is the git repo `dev/workflow_testing`. Since the user is `dev`, there must be something cool. This proved true as inside the mentioned repo lies an `issuehandler.yml` file. This file is an issue handler for GitHub Actions – a CI/CD platform allowing GitHub developers to automate development workflows easily. The convenience of GitHub Actions often makes it vulnerable.
