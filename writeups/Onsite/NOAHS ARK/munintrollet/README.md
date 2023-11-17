@@ -100,4 +100,4 @@ So only remaining configuration is the solution we are looking for:
 
 ![](15.png)
 
-```EPT{puzzle_solv3r_megamind}``
+`EPT{puzzle_solv3r_megamind}`
