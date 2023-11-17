@@ -58,9 +58,9 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [munintrollet](/writeups/Reversing/Broken%20Mario/munintrollet)  
 	 - [datasnok](/writeups/Reversing/Broken%20Mario/datasnok)  
  - **EPT1911**
-	 - [knavik](/writeups/Reversing/EPT1911/knavik)  
 	 - [munintrollet](/writeups/Reversing/EPT1911/munintrollet)  
 	 - [TeDe](/writeups/Reversing/EPT1911/TeDe)  
+	 - [knavik](/writeups/Reversing/EPT1911/knavik)  
 	 - [FoxMaccloud](/writeups/Reversing/EPT1911/FoxMaccloud)  
 	 - [7h3_D4rk_4rmy](/writeups/Reversing/EPT1911/7h3_D4rk_4rmy)  
  - **One True Flag**
@@ -95,9 +95,9 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [kileak](/writeups/Pwn/Travel%20tracker/kileak)  
  - **Easypwn**
 	 - [toffe](/writeups/Pwn/Easypwn/toffe)  
-	 - [knavik](/writeups/Pwn/Easypwn/knavik)  
 	 - [munintrollet](/writeups/Pwn/Easypwn/munintrollet)  
 	 - [TeDe](/writeups/Pwn/Easypwn/TeDe)  
+	 - [knavik](/writeups/Pwn/Easypwn/knavik)  
 	 - [7h3_D4rk_4rmy](/writeups/Pwn/Easypwn/7h3_D4rk_4rmy)  
  - **Veal and Car's first baby (heap)**
 	 - [WackAttack](/writeups/Pwn/Veal%20and%20Car's%20first%20baby%20(heap)/WackAttack)  
