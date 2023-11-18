@@ -60,6 +60,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
  - **EPT1911**
 	 - [munintrollet](/writeups/Reversing/EPT1911/munintrollet)  
 	 - [TeDe](/writeups/Reversing/EPT1911/TeDe)  
+	 - [knavik](/writeups/Reversing/EPT1911/knavik)  
 	 - [FoxMaccloud](/writeups/Reversing/EPT1911/FoxMaccloud)  
 	 - [7h3_D4rk_4rmy](/writeups/Reversing/EPT1911/7h3_D4rk_4rmy)  
  - **One True Flag**
@@ -96,6 +97,7 @@ Educational guides, writeups and challenges resources for the 2023 Equinor CTF
 	 - [toffe](/writeups/Pwn/Easypwn/toffe)  
 	 - [munintrollet](/writeups/Pwn/Easypwn/munintrollet)  
 	 - [TeDe](/writeups/Pwn/Easypwn/TeDe)  
+	 - [knavik](/writeups/Pwn/Easypwn/knavik)  
 	 - [7h3_D4rk_4rmy](/writeups/Pwn/Easypwn/7h3_D4rk_4rmy)  
  - **Veal and Car's first baby (heap)**
 	 - [WackAttack](/writeups/Pwn/Veal%20and%20Car's%20first%20baby%20(heap)/WackAttack)  
