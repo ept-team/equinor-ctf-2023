@@ -59,6 +59,7 @@ if summen >= 4:
 if summen >= 2:
   shoot.append(1)
 print(*shoot)
+```
 
 This code effectively mirrors the strategic approach used in the challenge, facilitating the rapid computation and decision-making necessary to excel.
 
